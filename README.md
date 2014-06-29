@@ -12,4 +12,4 @@ This is the code from my quick lecture on debugging.
 
 * _Test regularly._ Once you have the potential problem nailed down, change one thing at a time and test it. That being said, any time you ever change anything, you should test it.
 
-
+* _Google promiscuously._ It's okay if you don't know what a particular error means. But if you've solved the problem, and you still don't know why you got that error, then that's totally _not_ okay. Google everything and anything.
