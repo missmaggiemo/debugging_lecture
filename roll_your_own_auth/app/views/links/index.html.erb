@@ -1,0 +1,7 @@
+<h1 id="links">Links</h1>
+
+<% @links.each do |link| %>
+<%= render partial: 'links/link', locals: { link: link } %>
+<% end %>
+
+<%= link_to "New Link", new_link_url %>

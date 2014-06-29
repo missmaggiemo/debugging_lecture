@@ -1,0 +1,8 @@
+<div id="comment_partial">
+  <p><strong><%= comment.user.username %></strong> at <%= comment.created_at %></p>
+  <p><%= comment.body %></p>
+  <% if comment.user == current_user %>
+  <%= button_to "Remove Comment", link_comment_url(comment.link, comment), method: :delete %>
+  <% end %>
+<hr>
+</div>

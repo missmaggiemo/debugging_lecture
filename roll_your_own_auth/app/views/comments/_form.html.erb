@@ -1,0 +1,6 @@
+<form action="<%= link_comments_url(link) %>" method="post" accept-charset="utf-8">
+  <%= form_auth_html %>
+  <p><label for="comment">Comment</label></p>
+  <textarea name="comment[body]" rows="8" cols="40" id="comment"></textarea>
+  <p><input type="submit" value="Add Comment"></p>
+</form>
